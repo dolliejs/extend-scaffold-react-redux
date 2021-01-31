@@ -1,7 +1,7 @@
 import React from 'react';
+import './App.css';
 import { connect } from 'react-redux';
 import { increaseCount, decreaseCount } from './store/models/app';
-import './App.css';
 
 const mapStateToProps = (state) => {
   return { state };
